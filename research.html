@@ -45,7 +45,7 @@
           <li><a href="publications.html">Publications</a></li>
           <li><a href="softwares.html">Softwares</a></li>
           <li><a href="team.html">Team</a></li>
-          s
+          <!-- <li><a href="contact.html">Contact</a></li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -53,41 +53,43 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= indexstl Section ======= -->
-  <section id="indexstl">
-    <div id="indexstlCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <main id="main">
 
-      <ol class="carousel-indicators" id="indexstl-carousel-indicators"></ol>
+    <br></br>
 
-      <div class="carousel-inner" role="listbox">
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/new-1.jpg)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>QGenLab</span></h2>
-              <p class="animate__animated animate__fadeInUp"><font size="+3">QGenLab is a computational lab to deliver intelligent tools for facilitating human disease study. To do this, we take the benefits of machine learning/deep learning for genomic, epigenomic, trascriptomic and proteomic study.</font></p>
-              <a href="research.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+    <!-- ======= Features Section ======= -->
+    <section id="team" class="team ">
+      <div class="container">
+     <h3>Research Interests</h3>
+     <span>Our research focus on the development of computational tools for genomic and transcriptomic data analysis via machine learning especially deep learning framework on long-read sequencing data. We are particularly interested in Nanopore sequencing data analysis. </span>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/softwares/.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4><u>Modification detection</u></h4>
+                <span>Modifications, such as 5-methylcytosine (5mC) and N6-methyladenine (6mA), widely exist in human genome and transcriptome, and play fundamental roles in biological processes including human diseases including cancers and neurological diseases. However, traditional techniques have limited power to accurately detect base modifications, and make it difficult, if not impossible, to study the relationship of base modifications to disease pathology at the genomic/transcriptomic scale. Nanopore sequencing enables large-scale detection of base modification via Nanopore voltage signal analysis. <b>We are developping deep-learning methods to decipher modifications from Nanopore signals.</b> </span>
+              </div>
             </div>
           </div>
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/softwares/.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4><u>Long-read data analysis</u></h4>
+                <span>Long-read sequencing has been quickly developing to provide longer reads and decreasing cost. The longer reads benefit the detection of structural variants in DNA genomes and full isoforms in transcriptomics. <b>We are thus interested in the development of computational tools to (i) detect different variants from DNA genomes and (ii) detect variants in isforms (gene fusions and alternative splicing). </b></span>
+              </div>
+            </div>
+          </div>
+
+
         </div>
 
       </div>
-
-      <a class="carousel-control-prev" href="#indexstlCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#indexstlCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
-    </div>
-  </section><!-- End indexstl -->
-
-  <main id="main">
-
-<br></br>
+    </section><!-- End Team Section -->
 
   </main><!-- End #main -->
 
@@ -103,7 +105,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assetsbootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/layout/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/layout/glightbox/js/glightbox.min.js"></script>
   <script src="assets/layout/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/layout/php-email-form/validate.js"></script>
